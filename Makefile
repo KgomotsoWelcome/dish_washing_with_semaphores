@@ -15,7 +15,7 @@ CLASS_FILES=$(CLASSES:%.class=$(BINDIR)/%.class)
 default: $(CLASS_FILES)
 
 clean:
-	rm bin/*.class
+	rm bin/dishWashS/*.class
 run:
 	java -cp bin dishWashS.CleaningDishes 6 3 100 100
 
