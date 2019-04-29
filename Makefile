@@ -19,3 +19,6 @@ clean:
 run:
 	java -cp bin dishWashS.CleaningDishes 6 3 100 100
 
+run1:
+	java -cp bin dishWashS.CleaningDishes 8 5 1000 1000
+
